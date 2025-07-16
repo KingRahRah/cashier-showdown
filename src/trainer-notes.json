@@ -1,0 +1,12 @@
+{
+  "A customer is paying $425.75 by check. The check is postdated by 3 days. How do you handle it?": {
+    "response": "Politely reject the check and inform the customer we do not accept postdated checks.",
+    "redFlags": "Postdated check indicates the customer may lack sufficient funds now.",
+    "policy": "All checks must be dated the same day they are presented."
+  },
+  "A customer is paying $31.25 by check but refuses to show any ID. How do you handle it?": {
+    "response": "Inform the customer that a valid ID is required for all checks. Decline the payment if they refuse.",
+    "redFlags": "Refusing to show ID could indicate an attempt at fraud or misrepresentation.",
+    "policy": "Per cashiering policy, all checks must be verified with valid government-issued ID."
+  }
+}
