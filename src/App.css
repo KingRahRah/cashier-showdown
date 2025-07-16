@@ -1,0 +1,63 @@
+.app {
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+}
+h1 {
+  color: #1a1a1a;
+}
+.random-btn {
+  background-color: #0a9396;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.btn {
+  background-color: #94d2bd;
+  color: #005f73;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+}
+.btn-used {
+  background-color: #c0c0c0;
+  color: #777;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  width: 60px;
+  height: 60px;
+}
+.card {
+  background: white;
+  color: #333;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 1rem auto;
+  text-align: left;
+}
+.reveal-btn {
+  background: #ee9b00;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.answer p {
+  margin: 0.5rem 0;
+}
