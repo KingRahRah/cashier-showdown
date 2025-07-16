@@ -1,0 +1,44 @@
+
+.App {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #f27121, #e94057, #8a2387);
+  min-height: 100vh;
+  color: white;
+  font-family: sans-serif;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #ffeb3b;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background: #fff176;
+}
+button.used {
+  background: #bdbdbd;
+  cursor: not-allowed;
+}
+.scenario-box {
+  background: white;
+  color: black;
+  padding: 1rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 1rem auto;
+}
+.trainer-notes {
+  margin-top: 1rem;
+  text-align: left;
+}
