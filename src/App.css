@@ -1,0 +1,48 @@
+
+body, html, .App {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom right, #d4145a, #fbb03b);
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  background: #ffe066;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button.selected {
+  background: #ccc;
+}
+
+.card {
+  background: white;
+  color: black;
+  max-width: 600px;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.random-btn {
+  background: crimson;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "question": "A customer is paying $425.75 by check, postdated by 3 days. How do you handle it?",
+    "ideal": "Explain that postdated checks cannot be accepted per policy.",
+    "flag": "Postdating may be used to delay payment or signal insufficient funds.",
+    "policy": "Check must be dated for the current date."
+  },
+  {
+    "question": "A customer is paying $31.25 by check but refuses to show any ID. How do you handle it?",
+    "ideal": "Inform the customer that a valid ID is required for all checks. Decline the payment if they refuse.",
+    "flag": "Refusing to show ID could indicate an attempt at fraud or misrepresentation.",
+    "policy": "All checks must be verified with valid government-issued ID."
+  },
+  {
+    "question": "A customer is paying $2675.00 by check. The check is handwritten with no name or address. What do you do?",
+    "ideal": "Decline the check and ask for a valid printed check with full identification details.",
+    "flag": "Handwritten checks with missing information can be signs of forgery or fraud.",
+    "policy": "All checks must be pre-printed with customer name and address."
+  },
+  {
+    "question": "Customer is paying $36.10 in cash but is distracted on their phone and not paying attention. How do you proceed?",
+    "ideal": "Pause the transaction and politely ask the customer to be present and attentive before proceeding.",
+    "flag": "Distraction can be used to create confusion or manipulate payment handling.",
+    "policy": "Clerks must ensure customers are attentive to avoid transaction disputes."
+  },
+  {
+    "question": "A customer presents a check written out to 'cash' for $239.89. How do you handle it?",
+    "ideal": "Explain that checks made out to 'cash' are not accepted. Ask them to rewrite the check properly.",
+    "flag": "Checks written to 'cash' are untraceable and pose high fraud risk.",
+    "policy": "Checks must be made out to the correct payee or entity."
+  },
+  {
+    "question": "Customer tries to pay $156.25 with a suspiciously faded bill with no visible security strip. What do you do?",
+    "ideal": "Inspect the bill and discreetly test it. If still suspicious, inform management and refuse the bill.",
+    "flag": "Damaged or faded bills may indicate counterfeiting.",
+    "policy": "Cash must be verified for authenticity. Refer to counterfeit detection procedures."
+  },
+  {
+    "question": "Customer pays $88.40 in cash, then argues they gave a $100 instead of a $20. What is your response?",
+    "ideal": "Check the drawer count and politely explain the drawer logs all bills. Offer a receipt review.",
+    "flag": "Claiming higher denominations is a common quick-change scam.",
+    "policy": "All bills must be counted aloud and confirmed at time of transaction."
+  },
+  {
+    "question": "Customer pays $54.25 by check. The written and numeric amounts don't match. How do you proceed?",
+    "ideal": "Decline the check and ask for a corrected version with matching amounts.",
+    "flag": "Mismatched check fields may signal check fraud or mistakes.",
+    "policy": "Check values must match both written and numerical sections."
+  },
+  {
+    "question": "Customer wants to pay $1200.00 in cash for property taxes. What steps must you take?",
+    "ideal": "Accept payment, but complete the high-cash transaction documentation as required.",
+    "flag": "Large cash payments may signal avoidance behavior. Still, not inherently fraudulent.",
+    "policy": "Any cash over $1,000 requires completion of a cash payment reporting form."
+  },
+  {
+    "question": "Customer pays $46.10 by check but forgot to sign it. What do you do?",
+    "ideal": "Return the check and ask them to sign it before proceeding.",
+    "flag": "Unsigned checks are invalid and can\u2019t be processed.",
+    "policy": "Checks must be fully completed and signed."
+  }
+]
