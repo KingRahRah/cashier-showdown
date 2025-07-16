@@ -1,0 +1,122 @@
+[
+  {
+    "question": "A customer presents a check for $425.75 that is postdated by 3 days. How should you respond?",
+    "ideal": "Politely inform the customer that postdated checks cannot be accepted and request a correctly dated check.",
+    "red_flag": "A postdated check may indicate insufficient funds.",
+    "policy": "All checks must be dated for the current day they are received."
+  },
+  {
+    "question": "A customer is paying $31.25 by check but refuses to show ID. What should you do?",
+    "ideal": "Explain that ID is required for all checks and decline the check if no ID is provided.",
+    "red_flag": "Refusal to provide ID could signal potential fraud.",
+    "policy": "Valid government-issued ID is required for all check transactions."
+  },
+  {
+    "question": "A customer presents a handwritten check for $2675.00 with no printed name or address. Is this acceptable?",
+    "ideal": "Politely decline the check and ask for a properly printed check with identifying information.",
+    "red_flag": "Missing name/address can make checks untraceable or fraudulent.",
+    "policy": "Checks must include pre-printed name and address."
+  },
+  {
+    "question": "A customer is paying $36.10 in cash while talking on the phone and not paying attention. How should you proceed?",
+    "ideal": "Pause the transaction and request their full attention before continuing.",
+    "red_flag": "Distraction may be intentional to cause errors or confusion.",
+    "policy": "Clerks must ensure both parties are focused to avoid disputes or mistakes."
+  },
+  {
+    "question": "A check for $239.89 is made out to 'cash'. Can you accept it?",
+    "ideal": "Decline the check and ask the customer to rewrite it to the correct payee.",
+    "red_flag": "Checks made out to 'cash' are untraceable and high risk.",
+    "policy": "All checks must be made out to the correct entity, never to 'cash'."
+  },
+  {
+    "question": "A $156.25 bill looks faded and lacks a security strip. How do you handle it?",
+    "ideal": "Inspect the bill and test it using approved methods. Escalate to a supervisor if still suspicious.",
+    "red_flag": "Faded bills without security features could be counterfeit.",
+    "policy": "Clerks must inspect suspicious bills and follow counterfeit procedures."
+  },
+  {
+    "question": "Customer pays $88.40 in cash, then insists they gave a $100 instead of a $20. What should you do?",
+    "ideal": "Explain the drawer records and offer to review the transaction if possible. Do not provide extra change.",
+    "red_flag": "Claiming higher denominations is a known quick-change scam tactic.",
+    "policy": "Currency must be counted clearly at time of transaction. Follow drawer audit procedures."
+  },
+  {
+    "question": "You receive a check for $54.25 with mismatched numeric and written amounts. What is your response?",
+    "ideal": "Reject the check and request a corrected one with matching fields.",
+    "red_flag": "Inconsistencies can be signs of tampering or honest error.",
+    "policy": "Both check fields must clearly and consistently match."
+  },
+  {
+    "question": "Customer wants to pay $1200 in cash for property taxes. What should you do before accepting it?",
+    "ideal": "Accept the payment, but also complete the large cash payment documentation.",
+    "red_flag": "Large cash payments must be carefully documented, even if valid.",
+    "policy": "All cash transactions over $1000 require additional tracking and paperwork."
+  },
+  {
+    "question": "A check for $46.10 is missing a signature. How should you respond?",
+    "ideal": "Politely return the check and ask the customer to sign it.",
+    "red_flag": "Unsigned checks are not legally valid.",
+    "policy": "Checks must be fully completed and signed to be accepted."
+  },
+  {
+    "question": "A customer attempts to pay $2675.00 entirely in coins. What is the appropriate response?",
+    "ideal": "Inform them that payment in coins over a certain volume is not accepted and suggest alternative methods.",
+    "red_flag": "Unusual coin volume may be a form of protest or disruption.",
+    "policy": "Excessive coin payments may be refused per policy and local guidelines."
+  },
+  {
+    "question": "A customer writes a check for $46.10 and asks for cash back. What do you do?",
+    "ideal": "Politely explain that checks cannot be written over for cash back.",
+    "red_flag": "Requesting cash back on a check could be an attempt to exploit payment systems.",
+    "policy": "Checks must match the exact amount due. No cash back allowed."
+  },
+  {
+    "question": "A customer tries to pay $31.25 in cash using novelty/play money. How should you respond?",
+    "ideal": "Refuse the payment and explain only legal tender is accepted.",
+    "red_flag": "Play money could be part of a scam or test.",
+    "policy": "Only legitimate U.S. currency may be accepted."
+  },
+  {
+    "question": "You receive a check for $36.10 dated last month. Can you accept it?",
+    "ideal": "Check your stale-date policy and verify that it's still within acceptance window. Decline if outside limits.",
+    "red_flag": "Old checks may be stale or previously declined.",
+    "policy": "Checks must be dated within an acceptable timeframe (e.g., 30\u201390 days)."
+  },
+  {
+    "question": "Customer insists on skipping ID verification and check review for a $425.75 payment. How should you proceed?",
+    "ideal": "Politely inform the customer that per internal policy, ID must still be verified for all check payments.",
+    "red_flag": "Refusal to follow ID or verification policies can indicate fraud risk.",
+    "policy": "All check payments require verification steps such as confirming valid ID, even without a third-party system."
+  },
+  {
+    "question": "A customer presents a check with the word 'VOID' faintly visible. What do you do?",
+    "ideal": "Decline the check and request a valid, non-voided check.",
+    "red_flag": "Voided checks are not negotiable and may have been tampered with.",
+    "policy": "Voided or tampered checks cannot be accepted under any circumstance."
+  },
+  {
+    "question": "A customer wants to pay $239.89 split between cash and check. Is this acceptable?",
+    "ideal": "Yes, allow the split but ensure both parts are processed and documented correctly.",
+    "red_flag": "Mixing methods requires close attention to totals and documentation.",
+    "policy": "Split payments are allowed but must follow proper balancing procedures."
+  },
+  {
+    "question": "Customer complains about being short-changed on a previous visit and watches you closely during check payment. How do you handle it?",
+    "ideal": "Stay calm and professional, confirm the check\u2019s details clearly aloud, and offer a printed receipt.",
+    "red_flag": "Excessive scrutiny may be used to distract or intimidate.",
+    "policy": "Maintain accuracy and transparency while processing check payments."
+  },
+  {
+    "question": "A customer attempts to pay $54.25 entirely in small coins. What\u2019s your response?",
+    "ideal": "Accept up to the maximum amount of coins allowed per policy and suggest alternative payment if exceeded.",
+    "red_flag": "Large volumes of small coins may be disruptive or avoidant behavior.",
+    "policy": "Coin limits per transaction apply. Follow local coinage acceptance policy."
+  },
+  {
+    "question": "A customer in a hurry pays $156.25 by check and appears distracted. How do you proceed?",
+    "ideal": "Slow the process and confirm all details on the check carefully before accepting.",
+    "red_flag": "Distraction may lead to missed red flags or errors.",
+    "policy": "Do not rush. All check details must be verified before processing."
+  }
+]
